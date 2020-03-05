@@ -25,6 +25,15 @@ public class ProblemLoader {
         }
     }
 
+    public static Problem findProblem(int index) {
+        for (Problem problem : PROBLEMS) {
+            if (problem.getIndex().equals(index + "")) {
+                return problem;
+            }
+        }
+        return null;
+    }
+
     public static void printAllProblems() {
         for (Problem problem : PROBLEMS) {
             System.out.println(problem);

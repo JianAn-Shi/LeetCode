@@ -26,7 +26,7 @@ public class Problem {
 
     @Override
     public String toString() {
-        return "Problem{" +
+        return "{" +
                 "index=" + index +
                 ", url='" + url + '\'' +
                 '}';
