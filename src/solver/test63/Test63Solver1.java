@@ -1,4 +1,6 @@
-package solver;
+package solver.test63;
+
+import solver.ISolver;
 
 public class Test63Solver1 implements ISolver {
 
